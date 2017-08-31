@@ -25,8 +25,8 @@ $ python generate.py
 Le script crée 7 fichiers SVG, qui contiennent tous les jours d'une année
 complète, en commençant au lendemain du jour d'exécution du script.
 
-Si vous ne voulez pas générer vous même les fichiers, **la poutre pour septembre 2016 à août 2017 est disponible dans [le dossier
-generated/](generated).**
+Si vous ne voulez pas générer vous même les fichiers, **la poutre pour septembre
+2017 à août 2018 est disponible dans [le dossier generated/](generated).**
 
 2. astuce: si Inkscape est installé, vous pouvez simplement convertir les
    fichiers `svg` en `pdf` avec la commande suivante, à exécuter dans un
