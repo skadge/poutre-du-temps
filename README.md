@@ -28,10 +28,19 @@ complète, en commençant au lendemain du jour d'exécution du script.
 Si vous ne voulez pas générer vous même les fichiers, **la poutre pour septembre 2016 à août 2017 est disponible dans [le dossier
 generated/](generated).**
 
-2. Imprimer les 7 fichiers, découper les bandes (3 par page), et les assembler.
+2. astuce: si Inkscape est installé, vous pouvez simplement convertir les
+   fichiers `svg` en `pdf` avec la commande suivante, à exécuter dans un
+   terminal:
 
-3. Si vous le souhaitez, vous pouvez utiliser une couleur de papier différente pour chaque
+```sh
+for i in page*.svg; do inkscape --export-pdf ${i%.svg}.pdf $i;done`
+```
+
+3. Imprimer les 7 fichiers (attention à imprimer en mode 'sans marges'), découper les bandes (3 par page), et les assembler.
+
+4. Si vous le souhaitez, vous pouvez utiliser une couleur de papier différente pour chaque
    saison (par exemple, vert, jaune, orange, bleu).
 
 Voilà !
+
 
